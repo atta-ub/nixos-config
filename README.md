@@ -1,1 +1,2 @@
-# Nisos Configuration
+
+# XMonad + Emacs + Rofi + Alacritty
