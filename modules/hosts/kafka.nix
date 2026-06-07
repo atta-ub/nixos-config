@@ -4,8 +4,6 @@
   imports = [
     /etc/nixos/hardware-configuration.nix
     ./host-lib/nash-with-kafka.nix
-    # ./hardware-configuration.nix
-#    ../../users/atta-work/atta-work.nix
   ];
 
   networking.hostName = "kafka";

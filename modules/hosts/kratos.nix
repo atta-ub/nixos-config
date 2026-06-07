@@ -9,7 +9,7 @@
   system.stateVersion = "25.11";
 
   environment.systemPackages = with pkgs; [
-    zed-editor
+    ffmpeg
   ];
 
   networking.extraHosts = ''

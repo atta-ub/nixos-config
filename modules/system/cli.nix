@@ -15,6 +15,5 @@
     lshw lshw-gui
     fastfetch pfetch
     usbutils pciutils
-    ascii-draw cmatrix cowsay
   ];
 }

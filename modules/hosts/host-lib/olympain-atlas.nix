@@ -6,15 +6,15 @@
   # ];
 
   environment.systemPackages = with pkgs; [
-    obs-studio
-    kdePackages.kdenlive
-    darktable
-    gimp
-    shotwell
-    shutter
-    qutebrowser
+    # obs-studio
+    # kdePackages.kdenlive
+    # darktable
+    # gimp
+    # shotwell
+    # shutter
+    # qutebrowser
     texliveFull
-    veracrypt			# cross plateform encryption tool
+    # veracrypt			# cross plateform encryption tool
   ];
 
 
@@ -44,12 +44,10 @@ services.nginx.enable = true;
 services.postgresql.enable = true;
 
 
-# Android / MTP support (systemd uaccess handles udev rules since NixOS 25.05)
+
 services.gvfs.enable = true;
 
 
-  # CUPS
-  #services.printing.enable = true;
 
   services.avahi = {
     enable = true;
@@ -62,7 +60,6 @@ services.gvfs.enable = true;
     enable = true;
     drivers = with pkgs; [
       cups-filters
-      #cups-browsed
     ];
   };
 

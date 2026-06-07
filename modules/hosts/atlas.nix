@@ -11,8 +11,6 @@
 
   environment.systemPackages = with pkgs; [
     ffmpeg
-    zed-editor
-    freecad
   ];
 
   networking.extraHosts = ''

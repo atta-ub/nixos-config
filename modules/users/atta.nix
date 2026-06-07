@@ -7,7 +7,6 @@
     shell = pkgs.zsh;
     extraGroups = [ "networkmanager" "wheel" "plugdev" ];
     packages = with pkgs; [
-      kdePackages.kate
       android-tools
     ];
 

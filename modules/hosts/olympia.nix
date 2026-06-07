@@ -4,8 +4,6 @@
   imports = [
     /etc/nixos/hardware-configuration.nix
     ./host-lib/olympain-atlas.nix
-    # ./hardware-configuration.nix
-#    ../../users/atta-work/atta-work.nix
   ];
 
   networking.hostName = "olympia";

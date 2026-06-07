@@ -10,23 +10,24 @@
     cmake
     gcc        
     gnumake
-    libtool    # vterm requires it
+    libtool    
     glib
 
+
+    graphviz
+	
 
     nodejs
     conda
     uv
-    poetry
-    octave
+    
+   
     guile
     black
     claude-code
     xorgserver  # for Xvf
     rustc 
     cargo
-    #gimini-cli
-    codex
 
   ];
 }

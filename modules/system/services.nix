@@ -35,7 +35,6 @@
     enableSSHSupport = true;
   };
 
-  # run generic Linux binaries (pre-built, glibc-linked) that expect a standard FHS layout
   programs.nix-ld.enable = true;
 
   programs.nix-ld.libraries = with pkgs; [

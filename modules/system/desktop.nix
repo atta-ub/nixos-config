@@ -1,4 +1,4 @@
-{ pkgs, ... }:
+{ ... }:
 
 {
 
@@ -6,7 +6,7 @@
 
   services.displayManager.sddm = {
     enable = true;
-    theme = "breeze";
+    wayland.enable = false;
     settings.Theme = {
       Background = "${../wallpapers/login.jpg}";
     };
@@ -16,15 +16,5 @@
     layout = "us";
     variant = "";
   };
-
-  services.desktopManager.plasma6.enable = true;
-
-  environment.sessionVariables = {
-    QT_QPA_PLATFORMTHEME = "qt6ct";
-  };
-
-environment.systemPackages = with pkgs; [
-  kdePackages.qtstyleplugin-kvantum
-];
 
 }

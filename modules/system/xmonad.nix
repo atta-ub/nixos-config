@@ -25,9 +25,9 @@
     arandr
     xmobar
     feh
-    trayer
+    #trayer
     betterlockscreen
-    scrot
+    #scrot
     flameshot
     gnome-screenshot
 
