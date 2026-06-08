@@ -40,8 +40,8 @@
   programs.nix-ld.libraries = with pkgs; [
         SDL2
         libGL
-        xorg.libX11
-        xorg.libXext
+        libX11
+        libXext
         stdenv.cc.cc.lib  # libstdc++
     ];
 
