@@ -8,10 +8,11 @@
     haskellPackages.cabal-install
     clisp
     cmake
-    gcc        
+    gcc
     gnumake
-    libtool    
+    libtool
     glib
+    clang-tools  # provides clangd (LSP server) and clang-format
 
 
     graphviz
