@@ -18,6 +18,7 @@
     lldb         # debug adapter for C/C++/Rust (used by dap-lldb)
     pyright      # Python LSP server (used by eglot)
     ruff         # Python formatter (used by ruff-format Emacs package)
+    pgformatter  # SQL formatter (used by sqlformat Emacs package)
 
 
     graphviz
