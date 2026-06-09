@@ -33,5 +33,6 @@
     fira-code-symbols
     jetbrains-mono
     nerd-fonts.fira-code
+    iosevka
   ];
 }
